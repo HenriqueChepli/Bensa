@@ -19,10 +19,9 @@
 .allMarcas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 150px;
-    padding: 10px;
+    padding: 10px 200px;
     background-color: #ffffff;
 }
 
@@ -32,11 +31,16 @@
     max-width: 100%;
 }
 
-@media (max-width: 768px) {
-    .allMarcas {
-        gap: 20px;
+@media (max-width: 1200px) {
+    .allMarcas{
+        padding: 10px 100px;
     }
+}
 
+@media (max-width: 768px) {
+    .allMarcas{
+        padding: 10px;
+    }
     .marcas img {
         width: 80px;
     }
