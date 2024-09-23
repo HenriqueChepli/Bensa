@@ -31,6 +31,19 @@
     max-width: 100%;
 }
 
+.banner {
+display: flex;
+justify-content: center;
+align-items: center;
+  position: relative;
+}
+
+.banner .banner-image {
+width: 65%;
+  object-fit: cover;
+  opacity: 1;
+}
+
 @media (max-width: 1200px) {
     .allMarcas{
         padding: 10px 100px;

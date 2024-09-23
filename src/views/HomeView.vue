@@ -9,6 +9,9 @@
   <div class="acessorios">
     <AcessoriosComponente/>
   </div>
+  <div class="ofertas">
+    <OfertasComponente />
+  </div>
   </section>
 </template>
 
@@ -16,6 +19,7 @@
 import MarcasComponente from '../components/MarcasComponente.vue'
 import LancamentosComponente from '../components/LancamentosComponente.vue'
 import AcessoriosComponente from '../components/AcessoriosComponente.vue'
+import OfertasComponente from '../components/OfertasComponente.vue';
 </script>
 
 <style>
